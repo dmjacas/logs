@@ -1,0 +1,8 @@
+[Tue Aug 06 00:00:37.240578 2024] [mpm_event:notice] [pid 1768663:tid 140261040731392] AH00489: Apache/2.4.59 (Ubuntu) OpenSSL/1.1.1f mod_wsgi/4.6.8 Python/3.8 GreenLook configured -- resuming normal operations
+[Tue Aug 06 00:00:37.240686 2024] [core:notice] [pid 1768663:tid 140261040731392] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Aug 06 00:00:38.788128 2024] [wsgi:error] [pid 2991101:tid 140261040731392] /home/dmarante/api_neutralbank-/venv/lib/python3.8/site-packages/whitenoise/base.py:115: UserWarning: No directory at: /home/dmarante/api_neutralbank-/staticfiles/
+[Tue Aug 06 00:00:38.788239 2024] [wsgi:error] [pid 2991101:tid 140261040731392]   warnings.warn(u"No directory at: {}".format(root))
+[Tue Aug 06 00:00:38.935948 2024] [wsgi:error] [pid 2991102:tid 140261040731392] /home/dmarante/api_neutralbank-/venv/lib/python3.8/site-packages/whitenoise/base.py:115: UserWarning: No directory at: /home/dmarante/api_neutralbank_test/staticfiles/
+[Tue Aug 06 00:00:38.936027 2024] [wsgi:error] [pid 2991102:tid 140261040731392]   warnings.warn(u"No directory at: {}".format(root))
+[Tue Aug 06 00:49:43.315497 2024] [core:error] [pid 2991105:tid 140260663023360] [client 8.137.17.195:38984] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Tue Aug 06 00:49:45.697643 2024] [core:error] [pid 2991104:tid 140260679808768] [client 8.137.17.195:41264] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
